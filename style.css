@@ -1,0 +1,130 @@
+/* Not sure how to make this work - also apparently not recommended to use Google Fonts with @font-face?
+See: https://stackoverflow.com/questions/21464837/font-face-with-google-font
+
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header-container {
+  height: 40px;
+  background-color: #1F2937;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+li {
+  display: inline;
+  float: right;
+  margin: 0 10px;
+}
+
+.top-container {
+  color: #F9FAF8;
+  background-color: #1F2937;
+  height: 500px;
+  padding-top: 20px;
+}
+
+.top-c-text {
+  margin-left: 200px;
+  margin-top: 80px;
+  float: left;
+}
+
+.top-c-img {
+  margin-right: 200px;
+  margin-top: 80px;
+  float: right;
+}
+
+.happy-person-img {
+  margin-left: 80px;
+  height: 250px;
+  width: auto;
+}
+
+.button {
+  background-color: #3882F6;
+  border-style: none;
+  border-radius: 6%;
+  color: #F9FAF8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.card-container {
+  text-align: center;
+  margin-top: 50px;
+  color: #1F2937;
+}
+
+.cards {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ height: 300px;
+}
+
+.card {
+  height: 30px;
+  width: auto;
+  padding: 60px;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.quote-container {
+  height: 500px;
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+ font-style: italic;
+}
+
+.signature {
+  font-weight: bold;
+}
+
+.cta-container {
+
+}
+
+
+.footer-container {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
